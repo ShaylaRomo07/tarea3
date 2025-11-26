@@ -1,15 +1,14 @@
 package org.ies.tierno.company.readers;
 
-import org.ies.tierno.company.model.Department;
 import org.ies.tierno.company.model.Employee;
 import org.ies.tierno.company.model.Workstation;
 
 import java.util.Scanner;
 
-public class EmployeesReader {
+public class EmployeeReader {
     private final Scanner scanner;
 
-    public EmployeesReader(Scanner scanner) {
+    public EmployeeReader(Scanner scanner) {
         this.scanner = scanner;
     }
 
