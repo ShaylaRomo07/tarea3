@@ -6,10 +6,14 @@ import java.util.Scanner;
 
 public class CompanyReader {
     private final Scanner scanner;
+    private final DepartmentReader departmentReader;
 
-    public CompanyReader(Scanner scanner) {
+    public CompanyReader(Scanner scanner, DepartmentReader departmentReader) {
         this.scanner = scanner;
+        this.departmentReader = departmentReader;
     }
-    public Company read(){
+
+    public Company read() {
+
     }
 }
