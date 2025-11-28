@@ -22,8 +22,8 @@ public class EmployeeReader {
 
         System.out.println("Apellidos:");
         String surname = scanner.nextLine();
-
         System.out.println("En que puesto trabaja:");
+        System.out.println("    0.No asignado");
         System.out.println("    1.Jefe de proyecto");
         System.out.println("    2.Programador");
         System.out.println("    3.Diseñador");
@@ -33,6 +33,7 @@ public class EmployeeReader {
             System.out.println("Opcion invalida.Enter para continuar....");
             scanner.nextLine();
             System.out.println("En que puesto trabaja:");
+            System.out.println("    0.No asignado");
             System.out.println("    1.Jefe de proyecto");
             System.out.println("    2.Programador");
             System.out.println("    3.Diseñador");
