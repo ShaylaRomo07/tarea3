@@ -15,5 +15,6 @@ public class Main {
         CompanyReader companyReader = new CompanyReader(scanner, departmentReader);
         CompanyApp companyApp = new CompanyApp(scanner, companyReader);
         companyApp.run();
+
     }
 }
